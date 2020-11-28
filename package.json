@@ -1,0 +1,19 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate using parcel",
+  "main": "src/index.html",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html -p 3000 --open",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Laura Infantes",
+  "license": "ISC"
+}
