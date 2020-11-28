@@ -1,6 +1,6 @@
 export default class Sound {
   constructor(src) {
-    this.sound = new Audio(`/assets/sound-files/${src}`);
+    this.sound = new Audio(`src/assets/sound-files/${src}`);
   }
 
   play() {
